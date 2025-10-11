@@ -390,13 +390,23 @@ service firebase.storage {
 
 ## Generación de APK
 
-### APK de Debug
+### Descargar APK Pre-compilado
+
+Si solo quieres probar la aplicación sin compilarla, puedes descargar el APK directamente:
+
+📦 **[Descargar HelpMe v1.0 APK](releases/HelpMe-v1.0.apk)**
+
+Ver las [instrucciones de instalación](releases/README.md) para más detalles.
+
+### Compilar APK desde el código
+
+#### APK de Debug
 ```bash
 ./gradlew assembleDebug
 ```
 El APK se generará en: `app/build/outputs/apk/debug/app-debug.apk`
 
-### APK de Release (Firmado)
+#### APK de Release (Firmado)
 ```bash
 ./gradlew assembleRelease
 ```

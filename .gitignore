@@ -23,10 +23,15 @@ app/google-services.json
 *.jks
 keystore.properties
 
-# Archivos de compilación
-*.apk
+# Archivos de compilación (excepto el APK de release en la carpeta releases)
 *.ap_
 *.aab
+app/build/
+.gradle/
+
+# Permitir APKs en la carpeta releases/
+*.apk
+!releases/*.apk
 
 # Logs
 *.log
