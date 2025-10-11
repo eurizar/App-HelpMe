@@ -1,0 +1,38 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Firebase - NO SUBIR ARCHIVOS DE CONFIGURACIÓN
+google-services.json
+app/google-services.json
+
+# API Keys sensibles
+*.keystore
+*.jks
+keystore.properties
+
+# Archivos de compilación
+*.apk
+*.ap_
+*.aab
+
+# Logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+*~.nib
